@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-gap: 1px;
+  padding: 5px;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.box {
+  height: 50px;
+  border: 1px solid #0a0802;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#winStatus {
+  color: rgb(42, 165, 48);
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Lucida Sans';
+}
+
+.center {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #000;
+  background-color: rgba(220, 0, 0, 1);
+  border-radius: 10px;
+}
+#clear {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+}
